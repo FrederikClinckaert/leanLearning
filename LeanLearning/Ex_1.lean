@@ -18,7 +18,7 @@ by
   exact hp
 
 -- OEFENING 1
-theorem Ta(A B C D E : Prop)
+theorem Tl(A B C D E : Prop)
     (h1 : A → B)
     (h2 : B → C)
     (h3 : C → D)
@@ -33,7 +33,7 @@ by
   apply ha
 
 -- OEFENING 2
-theorem Tb (n m : Nat)
+theorem Tm (n m : Nat)
     (h1 : n = m → n + 1 = m + 1)  -- Als n=m, dan n+1=m+1
     (h2 : n = 0 → n = m)          -- Als n=0, dan n=m
     (hn : n = 0)                  -- n is 0
